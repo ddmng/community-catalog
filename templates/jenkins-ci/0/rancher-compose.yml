@@ -18,13 +18,13 @@
       one entry per line.
     default: |
       credentials
-      greenballs
       git
-      junit
       git-client
+      github
       github-api
       github-oauth
-      github
+      greenballs
+      junit
       plain-credentials
       scm-api
       ssh-credentials
