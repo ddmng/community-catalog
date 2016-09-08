@@ -28,5 +28,6 @@ rabbitmq-base:
   net: "container:rabbitmq"
   entrypoint:
     - /opt/rancher/bin/run.sh
+  environment:
     - RABBITMQ_ERLANG_COOKIE=${erlang_cookie}
 
