@@ -7,6 +7,7 @@
       description: "Erlang cookie required for auth"
       label: "Erlang cookie:"
       required: true
+      default: defaultcookiepleasechange
       type: "string"
     - variable: "cluster_partition_handling"
       label: "Partition Handling:"
