@@ -21,7 +21,7 @@
         - pause_minority
     - variable: "net_ticktime"
       description: "Rabbitmq net ticktime setting"
-      label: "Rabbitmq net ticktime:"
+      label: "Net ticktime:"
       required: false
       type: "int"
       default: 60
