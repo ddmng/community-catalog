@@ -7,6 +7,9 @@
 db:
   scale: 1
 
+app:
+  scale: 1
+
 web:
   scale: 1
 
