@@ -1,6 +1,4 @@
 web:
-  ports:
-    - "8011:80"
   image: mattermost/mattermost-prod-app
   links:
     - db:db
