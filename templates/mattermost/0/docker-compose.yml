@@ -4,3 +4,15 @@ web:
     - db:db
 db:
   image: mattermost/mattermost-prod-db
+
+lbmm:
+  ports:
+  - 8011:80
+  - 8443:443
+  labels:
+    io.rancher.scheduler.global: 'true'
+  tty: true
+  image: rancher/load-balancer-service
+  links:
+  - web:web
+  stdin_open: true
