@@ -1,0 +1,11 @@
+.catalog:
+  name: "Mattermost"
+  version: "v1"
+  description: "Test mattermost."
+  uuid: mattermost
+
+db:
+  scale: 1
+
+web:
+  scale: 1
