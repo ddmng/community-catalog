@@ -7,8 +7,7 @@ db:
 
 lbmm:
   ports:
-  - 8011:80
-  - 8443:443
+  - 8443:80
   labels:
     io.rancher.scheduler.global: 'true'
   tty: true
